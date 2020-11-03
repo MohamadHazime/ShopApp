@@ -18,6 +18,22 @@ project_name: ShopApp
 default_job_timeout: 10 # minutes, set at project creation
 
 device_pools:
+  - pool_name: android pool
+    pool_type: android
+    devices:
+    - name: HTC One M8 (AT&T)
+      model: 6268A
+      os: 4.4.4
+    - name: Samsung Galaxy J2
+      model: SM-J260M
+      os: 8.1.0
+    - name: Samsung Galaxy J7 (2018)
+      model: SM-J737U
+      os: 8.0.0
+    - name: Sony Xperia XZ1
+      model: "{G8342,G8343}"
+      os: 8.0.0
+
   - pool_name: ios pool 1
     pool_type: ios
     devices:
@@ -40,6 +56,7 @@ test_suites:
       - test_driver/auth/app_test.dart
       - test_driver/auth/app_test.dart
     pool_names:
+      - android pool
       - ios pool 1
 #      - iPhone 5c
     job_timeout: 15 # minutes, set per job, over-rides default job timeout above
