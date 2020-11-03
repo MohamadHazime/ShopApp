@@ -13,8 +13,11 @@ sylph_timeout: 720 # seconds approx
 # run on ios and android pools concurrently (for faster results)
 concurrent_runs: true
 
+# flavor config
+flavor: paid
+
 # device farm config
-project_name: test concurrent runs
+project_name: test flavor runs
 default_job_timeout: 10 # minutes, set at project creation
 
 device_pools:
@@ -51,7 +54,6 @@ test_suites:
   - test_suite: example tests 1
     main: test_driver/main.dart
     tests:
-      - test_driver/main_test.dart
       - test_driver/main_test.dart
     pool_names:
       - android pool 1
