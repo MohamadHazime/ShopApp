@@ -24,15 +24,15 @@ device_pools:
     - name: HTC One M8 (AT&T)
       model: 6268A
       os: 4.4.4
-    - name: Samsung Galaxy J2
-      model: SM-J260M
-      os: 8.1.0
-    - name: Samsung Galaxy J7 (2018)
-      model: SM-J737U
-      os: 8.0.0
-    - name: Sony Xperia XZ1
-      model: "{G8342,G8343}"
-      os: 8.0.0
+    # - name: Samsung Galaxy J2
+    #   model: SM-J260M
+    #   os: 8.1.0
+    # - name: Samsung Galaxy J7 (2018)
+    #   model: SM-J737U
+    #   os: 8.0.0
+    # - name: Sony Xperia XZ1
+    #   model: "{G8342,G8343}"
+    #   os: 8.0.0
 
   - pool_name: ios pool 1
     pool_type: ios
