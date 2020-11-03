@@ -18,20 +18,6 @@ project_name: ShopApp
 default_job_timeout: 10 # minutes, set at project creation
 
 device_pools:
-
-  - pool_name: android pool 1
-    pool_type: android
-    devices:
-#      - name: Samsung Galaxy S9 (Unlocked)
-#        model: SM-G960U1
-#        os: 8.0.0
-#      - name: Google Pixel
-#        model: Pixel
-#        os: 8.0.0
-      - name: Google Pixel 2
-        model: Google Pixel 2
-        os: 8.0.0
-
   - pool_name: ios pool 1
     pool_type: ios
     devices:
@@ -54,7 +40,6 @@ test_suites:
       - test_driver/auth/app_test.dart
       - test_driver/auth/app_test.dart
     pool_names:
-      - android pool 1
       - ios pool 1
 #      - iPhone 5c
     job_timeout: 15 # minutes, set per job, over-rides default job timeout above
