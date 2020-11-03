@@ -57,6 +57,6 @@ test_suites:
       - test_driver/auth/app_test.dart
     pool_names:
       - android pool
-      - ios pool 1
+      # - ios pool 1
 #      - iPhone 5c
     job_timeout: 15 # minutes, set per job, over-rides default job timeout above
