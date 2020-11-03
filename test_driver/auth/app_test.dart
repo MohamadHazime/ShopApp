@@ -30,10 +30,8 @@ void main() {
     test('1- Test success login.\n', () async {
       await driver.tap(email);
       await driver.enterText("test@test.com");
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(password);
       await driver.enterText("test1234");
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(btn);
       await driver.waitFor(prods);
       assert(prods != null);
@@ -41,31 +39,24 @@ void main() {
     }, timeout: Timeout.none);
 
     test('2- Test failed login with incorrect email or password.\n', () async {
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.waitFor(menu);
       assert(menu != null);
       await driver.tap(menu);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.waitFor(onlyFav);
       assert(onlyFav != null);
       await driver.tap(onlyFav);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.waitFor(drawer);
       assert(drawer != null);
       await driver.tap(drawer);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.waitFor(logout);
       assert(dialog != null);
       await driver.tap(logout);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.waitFor(email);
       assert(dialog != null);
       await driver.tap(email);
       await driver.enterText("test5@test.com");
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(password);
       await driver.enterText("test1234");
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(btn);
       await driver.waitFor(dialog);
       assert(dialog != null);
@@ -73,17 +64,12 @@ void main() {
       assert(text1 != null);
       await driver.waitFor(okay);
       assert(okay != null);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(okay);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(email);
       await driver.enterText('test@test.com');
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(password);
       await driver.enterText("testjkjk");
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.tap(btn);
-      await Future.delayed(Duration(seconds: 5), () {});
       await driver.waitFor(dialog);
       assert(dialog != null);
       await driver.waitFor(text2);
