@@ -1,0 +1,29 @@
+# Learn more: https://github.com/mmcc007/sylph
+
+tmp_dir: /tmp/sylph
+artifacts_dir: /tmp/sylph_artifacts
+# local timeout per device farm run
+sylph_timeout: 720 # seconds approx
+
+# device farm config
+project_name: App Integration Tests
+default_job_timeout: 10 # minutes, set at project creation
+
+device_pools:
+
+  - pool_name: android pool 1
+    pool_type: android
+    devices:
+      - name: Google Pixel 2
+        model: Google Pixel 2
+        os: 8.0.0
+
+test_suites:
+
+  - test_suite: Test suite from test_driver/auth/app_test.dart
+    main: test_driver/auth/app.dart
+    tests:
+      - test_driver/auth/app_test.dart
+    pool_names:
+      - android pool 1
+    job_timeout: 15 # minutes, set per job, over-rides default job timeout above
