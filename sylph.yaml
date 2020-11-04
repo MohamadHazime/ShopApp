@@ -100,19 +100,19 @@ device_pools:
       formFactor: phone
       availability: HIGHLY_AVAILABLE
     - name: Google Pixel 4 (Unlocked)
-      model: {GA01188-US}
+      model: GA01188-US
       os: 10.0.0
       deviceType: android
       formFactor: phone
       availability: HIGHLY_AVAILABLE
     - name: Google Pixel 4 (Unlocked)
-      model: {GA01188-US}
+      model: GA01188-US
       os: 11.0.0
       deviceType: android
       formFactor: phone
       availability: HIGHLY_AVAILABLE
     - name: Google Pixel 4 XL (Unlocked)
-      model: {GA01182-US}
+      model: GA01182-US
       os: 10.0.0
       deviceType: android
       formFactor: phone
@@ -292,13 +292,13 @@ device_pools:
       formFactor: phone
       availability: HIGHLY_AVAILABLE
     - name: Samsung Galaxy S20 (Unlocked)
-      model: {SM-G981U1}
+      model: SM-G981U1
       os: 10.0.0
       deviceType: android
       formFactor: phone
       availability: HIGHLY_AVAILABLE
     - name: Samsung Galaxy S20 ULTRA (Unlocked)
-      model: {SM-G988U1}
+      model: SM-G988U1
       os: 10.0.0
       deviceType: android
       formFactor: phone
@@ -424,13 +424,13 @@ device_pools:
       formFactor: phone
       availability: HIGHLY_AVAILABLE
     - name: Samsung Galaxy S9+ (Unlocked)
-      model: {SM-G965U1,SM-G965U}
+      model: SM-G965U1
       os: 8.0.0
       deviceType: android
       formFactor: phone
       availability: HIGHLY_AVAILABLE      
     - name: Samsung Galaxy S9+ (Unlocked)
-      model: {SM-G965U1,SM-G965U}
+      model: SM-G965U1
       os: 9.0.0
       deviceType: android
       formFactor: phone
@@ -442,7 +442,7 @@ device_pools:
       formFactor: phone
       availability: BUSY
     - name: Sony Xperia XZ1
-      model: {G8342,G8343}
+      model: G8342
       os: 8.0.0
       deviceType: android
       formFactor: phone
