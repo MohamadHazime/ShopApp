@@ -21,9 +21,9 @@ device_pools:
   - pool_name: android pool
     pool_type: android
     devices:
-    - name: Google Pixel 2
-      model: Google Pixel 2
-      os: 9.0.0
+    # - name: Google Pixel 2
+    #   model: Google Pixel 2
+    #   os: 9.0.0
     - name: Google Pixel 2 XL
       model: Google Pixel 2 XL
       os: 9.0.0
