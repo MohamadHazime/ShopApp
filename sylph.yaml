@@ -22,7 +22,7 @@ device_pools:
     pool_type: android
     devices:
     - name: Google Pixel 2 XL
-      model: 9
+      model: Pixel 2 XL
       os: 9.0.0
     # - name: Samsung Galaxy J7 (2018)
     #   model: SM-J737U
