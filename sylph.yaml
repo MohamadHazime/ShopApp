@@ -22,8 +22,13 @@ device_pools:
     pool_type: android
     devices:
     - name: Google Pixel 2 XL
-      model: Google Pixel 2 XL
-      os: 9.0.0
+      os: 9
+      manufacturer: Pixel 2 XL
+      model: 9
+      chipset: arm64-v8a 1900.8MHz
+      memory: 64000000000
+      heap: 512000000
+      display: 1440 x 2880
     # - name: Samsung Galaxy J7 (2018)
     #   model: SM-J737U
     #   os: 8.0.0
