@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_driver/driver_extension.dart';
+// import 'package:flutter_driver/driver_extension.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 
 import './screens/products_overview_screen.dart';
@@ -19,7 +19,7 @@ import './screens/product_detail_screen.dart';
 import './providers/products.dart';
 
 Future<void> main() async {
-  enableFlutterDriverExtension();
+  // enableFlutterDriverExtension();
   WidgetsFlutterBinding.ensureInitialized();
   runZonedGuarded(() {
     runApp(MyApp());
