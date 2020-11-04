@@ -22,497 +22,497 @@ device_pools:
     pool_type: android
     devices:
     - name: Galaxy S8 Unlocked 
-        model: SM-G950U1
-        os: 7.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Galaxy S8 Unlocked
-        model: SM-G950U1
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Google Pixel
-        model: Pixel
-        os: 7.1.2
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Google Pixel 2
-        model: Google Pixel 2
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Google Pixel 2
-        model: Google Pixel 2
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Google Pixel 2 XL
-        model: Google Pixel 2 XL
-        os: 8.1.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 2 XL
-        model: Google Pixel 2 XL
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 3
-        model: Pixel 3
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 3
-        model: Pixel 3
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Google Pixel 3 XL
-        model: Pixel 3 XL
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 3 XL
-        model: Pixel 3 XL
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 3a
-        model: G020G
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 3a XL
-        model: G020C
-        os: 11.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 4 (Unlocked)
-        model: {GA01188-US}
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 4 (Unlocked)
-        model: {GA01188-US}
-        os: 11.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel 4 XL (Unlocked)
-        model: {GA01182-US}
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Google Pixel XL
-        model: Pixel XL
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: HTC One M8 (AT&T)
-        model: 6268A
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: HTC One M9 (AT&T)
-        model: 6735A
-        os: 5.0.2
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: LG Nexus 5
-        model: D820
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Motorola Moto G (AT&T)
-        model: XT1045
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Motorola Moto G 4
-        model: Moto G (4)
-        os: 7.0.0
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Motorola Moto X - 2nd Gen (Verizon)
-        model: XT1096
-        os: 5.1.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy A40
-        model: SM-A405F
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy A5
-        model: SM-A520F
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy A50
-        model: SM-A505U1
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy A6
-        model: SM-A600U
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy A7
-        model: SM-A750FN
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy A70
-        model: SM-A705MN
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy J2
-        model: SM-J260M
-        os: 8.1.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy J7 (2018)
-        model: SM-J737U
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Note 10
-        model: SM-N970U1
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Note 3 (AT&T)
-        model: SM-N900A
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note 3 (Sprint)
-        model: SM-N900P
-        os: 5.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note 3 (Verizon)
-        model: SM-N900V
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Note 4 (AT&T)
-        model: SM-N910A
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Note 4 (Verizon)
-        model: SM-N910V
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note 4 SM-N910H
-        model: SM-N910H
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note5 (AT&T)
-        model: SM-N9120A
-        os: 7.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note5 (T-Mobile)
-        model: SM-N920T
-        os: 5.1.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note5 SM-N920C
-        model: SM-N920C
-        os: 6.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy Note8 (Unlocked)
-        model: SM-N950U1
-        os: 7.1.1
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S10
-        model: SM-G973U1
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S10+
-        model: SM-G975U1
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S10e
-        model: SM-G970U1
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S20 (Unlocked)
-        model: {SM-G981U1}
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S20 ULTRA (Unlocked)
-        model: {SM-G988U1}
-        os: 10.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE        
-      - name: Samsung Galaxy S3 (T-Mobile)
-        model: SGH-T999
-        os: 4.3.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S3 (Verizon)
-        model: SCH-I535
-        os: 4.3.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S3 (Verizon)
-        model: SCH-I535
-        os: 4.4.2
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S4 (AT&T)
-        model: SGH-I337
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S4 (AT&T)
-        model: SGH-I337
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S4 (T-Mobile)
-        model: SGH-M919
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S4 (Verizon)
-        model: SCH-I545
-        os: 4.4.2
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S4 (Verizon)
-        model: SCH-I545
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S4(Unlocked)
-        model: GT-I9500
-        os: 5.0.1
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S5 (AT&T)
-        model: SM-G900A
-        os: 4.4.2
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S5 (AT&T)
-        model: SM-G900A
-        os: 4.4.4
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S5 (Verizon)
-        model: SM-G900V
-        os: 6.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S6 (T-Mobile)
-        model: SM-G920T
-        os: 6.0.1
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S6 (Verizon)
-        model: SM-G920V
-        os: 6.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S6 Edge
-        model: SM-G925F
-        os: 7.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S6 Edge SM-G925F
-        model: SM-G925F
-        os: 6.0.1
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Samsung Galaxy S7 SM-G930F
-        model: SM-G930F
-        os: 6.0.1
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Samsung Galaxy S8 (T-Mobile)
-        model: SM-G950U
-        os: 7.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S9 (Unlocked)
-        model: SM-G960U1
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Samsung Galaxy S9 (Unlocked)
-        model: SM-G960U1
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy S9+ (Unlocked)
-        model: {SM-G965U1,SM-G965U}
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE      
-      - name: Samsung Galaxy S9+ (Unlocked)
-        model: {SM-G965U1,SM-G965U}
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Samsung Galaxy Tab A 10.1"
-        model: SM-T580
-        os: 7.0.0
-        deviceType: android
-        formFactor: phone
-        availability: BUSY
-      - name: Sony Xperia XZ1
-        model: {G8342,G8343}
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: HIGHLY_AVAILABLE
-      - name: Sony Xperia XZ2
-        model: H8266
-        os: 8.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Sony Xperia XZ2
-        model: H8266
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: Sony Xperia XZ3
-        model: H8416
-        os: 9.0.0
-        deviceType: android
-        formFactor: phone
-        availability: AVAILABLE
-      - name: ASUS Nexus 7 - 2nd Gen (WiFi)
-        model: ME571K
-        os: 6.0.0
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
-      - name: Dell Venue 8 7840
-        model: v8TBL-7840
-        os: 5.1.0
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Tab 3 10.1" (WiFi)
-        model: GT-P5210
-        os: 4.2.2
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Tab 3 7.0" (T-Mobile)
-        model: SM-T217T
-        os: 4.4.4
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Tab 4 7.0" (WiFi)
-        model: SM-T230NU
-        os: 4.4.2
-        deviceType: android
-        formFactor: tablet
-        availability: AVAILABLE
-      - name: Samsung Galaxy Tab S4
-        model: SM-T830
-        os: 8.1.0
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
-      - name: Samsung Galaxy Tab S6 (WiFi)
-        model: SM-T860
-        os: 9.0.0
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
-      - name: Sony Xperia Z4 Tablet
-        model: SGP712
-        os: 5.0.2
-        deviceType: android
-        formFactor: tablet
-        availability: HIGHLY_AVAILABLE
+      model: SM-G950U1
+      os: 7.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Galaxy S8 Unlocked
+      model: SM-G950U1
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Google Pixel
+      model: Pixel
+      os: 7.1.2
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Google Pixel 2
+      model: Google Pixel 2
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Google Pixel 2
+      model: Google Pixel 2
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Google Pixel 2 XL
+      model: Google Pixel 2 XL
+      os: 8.1.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 2 XL
+      model: Google Pixel 2 XL
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 3
+      model: Pixel 3
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 3
+      model: Pixel 3
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Google Pixel 3 XL
+      model: Pixel 3 XL
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 3 XL
+      model: Pixel 3 XL
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 3a
+      model: G020G
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 3a XL
+      model: G020C
+      os: 11.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 4 (Unlocked)
+      model: {GA01188-US}
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 4 (Unlocked)
+      model: {GA01188-US}
+      os: 11.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel 4 XL (Unlocked)
+      model: {GA01182-US}
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Google Pixel XL
+      model: Pixel XL
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: HTC One M8 (AT&T)
+      model: 6268A
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: HTC One M9 (AT&T)
+      model: 6735A
+      os: 5.0.2
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: LG Nexus 5
+      model: D820
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Motorola Moto G (AT&T)
+      model: XT1045
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Motorola Moto G 4
+      model: Moto G (4)
+      os: 7.0.0
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Motorola Moto X - 2nd Gen (Verizon)
+      model: XT1096
+      os: 5.1.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy A40
+      model: SM-A405F
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy A5
+      model: SM-A520F
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy A50
+      model: SM-A505U1
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy A6
+      model: SM-A600U
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy A7
+      model: SM-A750FN
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy A70
+      model: SM-A705MN
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy J2
+      model: SM-J260M
+      os: 8.1.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy J7 (2018)
+      model: SM-J737U
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Note 10
+      model: SM-N970U1
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Note 3 (AT&T)
+      model: SM-N900A
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note 3 (Sprint)
+      model: SM-N900P
+      os: 5.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note 3 (Verizon)
+      model: SM-N900V
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Note 4 (AT&T)
+      model: SM-N910A
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Note 4 (Verizon)
+      model: SM-N910V
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note 4 SM-N910H
+      model: SM-N910H
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note5 (AT&T)
+      model: SM-N9120A
+      os: 7.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note5 (T-Mobile)
+      model: SM-N920T
+      os: 5.1.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note5 SM-N920C
+      model: SM-N920C
+      os: 6.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy Note8 (Unlocked)
+      model: SM-N950U1
+      os: 7.1.1
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S10
+      model: SM-G973U1
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S10+
+      model: SM-G975U1
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S10e
+      model: SM-G970U1
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S20 (Unlocked)
+      model: {SM-G981U1}
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S20 ULTRA (Unlocked)
+      model: {SM-G988U1}
+      os: 10.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE        
+    - name: Samsung Galaxy S3 (T-Mobile)
+      model: SGH-T999
+      os: 4.3.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S3 (Verizon)
+      model: SCH-I535
+      os: 4.3.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S3 (Verizon)
+      model: SCH-I535
+      os: 4.4.2
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S4 (AT&T)
+      model: SGH-I337
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S4 (AT&T)
+      model: SGH-I337
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S4 (T-Mobile)
+      model: SGH-M919
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S4 (Verizon)
+      model: SCH-I545
+      os: 4.4.2
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S4 (Verizon)
+      model: SCH-I545
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S4(Unlocked)
+      model: GT-I9500
+      os: 5.0.1
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S5 (AT&T)
+      model: SM-G900A
+      os: 4.4.2
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S5 (AT&T)
+      model: SM-G900A
+      os: 4.4.4
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S5 (Verizon)
+      model: SM-G900V
+      os: 6.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S6 (T-Mobile)
+      model: SM-G920T
+      os: 6.0.1
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S6 (Verizon)
+      model: SM-G920V
+      os: 6.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S6 Edge
+      model: SM-G925F
+      os: 7.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S6 Edge SM-G925F
+      model: SM-G925F
+      os: 6.0.1
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Samsung Galaxy S7 SM-G930F
+      model: SM-G930F
+      os: 6.0.1
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Samsung Galaxy S8 (T-Mobile)
+      model: SM-G950U
+      os: 7.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S9 (Unlocked)
+      model: SM-G960U1
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Samsung Galaxy S9 (Unlocked)
+      model: SM-G960U1
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy S9+ (Unlocked)
+      model: {SM-G965U1,SM-G965U}
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE      
+    - name: Samsung Galaxy S9+ (Unlocked)
+      model: {SM-G965U1,SM-G965U}
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Samsung Galaxy Tab A 10.1"
+      model: SM-T580
+      os: 7.0.0
+      deviceType: android
+      formFactor: phone
+      availability: BUSY
+    - name: Sony Xperia XZ1
+      model: {G8342,G8343}
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: HIGHLY_AVAILABLE
+    - name: Sony Xperia XZ2
+      model: H8266
+      os: 8.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Sony Xperia XZ2
+      model: H8266
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: Sony Xperia XZ3
+      model: H8416
+      os: 9.0.0
+      deviceType: android
+      formFactor: phone
+      availability: AVAILABLE
+    - name: ASUS Nexus 7 - 2nd Gen (WiFi)
+      model: ME571K
+      os: 6.0.0
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
+    - name: Dell Venue 8 7840
+      model: v8TBL-7840
+      os: 5.1.0
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Tab 3 10.1" (WiFi)
+      model: GT-P5210
+      os: 4.2.2
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Tab 3 7.0" (T-Mobile)
+      model: SM-T217T
+      os: 4.4.4
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Tab 4 7.0" (WiFi)
+      model: SM-T230NU
+      os: 4.4.2
+      deviceType: android
+      formFactor: tablet
+      availability: AVAILABLE
+    - name: Samsung Galaxy Tab S4
+      model: SM-T830
+      os: 8.1.0
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
+    - name: Samsung Galaxy Tab S6 (WiFi)
+      model: SM-T860
+      os: 9.0.0
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
+    - name: Sony Xperia Z4 Tablet
+      model: SGP712
+      os: 5.0.2
+      deviceType: android
+      formFactor: tablet
+      availability: HIGHLY_AVAILABLE
     # - name: Samsung Galaxy J7 (2018)
     #   model: SM-J737U
     #   os: 8.0.0
