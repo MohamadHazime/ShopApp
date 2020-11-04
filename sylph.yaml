@@ -33,9 +33,9 @@ device_pools:
     - name: Samsung Galaxy A6
       model: SM-A600U
       os: 8.0.0
-    - name: Samsung Galaxy A7
-      model: SM-A750FN
-      os: 8.0.0
+    # - name: Samsung Galaxy A7
+    #   model: SM-A750FN
+    #   os: 8.0.0
     # - name: Samsung Galaxy J7 (2018)
     #   model: SM-J737U
     #   os: 8.0.0
