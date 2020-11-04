@@ -21,7 +21,7 @@ device_pools:
   - pool_name: android pool
     pool_type: android
     devices:
-    - name: Google Pixel 2 XL
+    - name: Samsung Galaxy A50
       os: 9.0.0
       model: "{9}"
     # - name: Samsung Galaxy J7 (2018)
