@@ -21,12 +21,9 @@ device_pools:
   - pool_name: android pool
     pool_type: android
     devices:
-      - name: Google Pixel 2
-        model: Google Pixel 2
-        os: 9.0.0
-    # - name: Samsung Galaxy J2
-    #   model: SM-J260M
-    #   os: 8.1.0
+    - name: Google Pixel 2 XL
+      model: Google Pixel 2 XL
+      os: 9.0.0
     # - name: Samsung Galaxy J7 (2018)
     #   model: SM-J737U
     #   os: 8.0.0
