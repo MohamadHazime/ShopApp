@@ -84,19 +84,19 @@ class _AuthScreenState extends State<AuthScreen> {
               }
               return Stack(
                 children: <Widget>[
-                  Container(
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Color.fromRGBO(215, 117, 255, 1).withOpacity(0.5),
-                          Color.fromRGBO(255, 188, 117, 1).withOpacity(0.9),
-                        ],
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        stops: [0, 1],
-                      ),
-                    ),
-                  ),
+                  // Container(
+                  //   decoration: BoxDecoration(
+                  //     gradient: LinearGradient(
+                  //       // colors: [
+                  //       //   Color.fromRGBO(215, 117, 255, 1).withOpacity(0.5),
+                  //       //   Color.fromRGBO(255, 188, 117, 1).withOpacity(0.9),
+                  //       // ],
+                  //       begin: Alignment.topLeft,
+                  //       end: Alignment.bottomRight,
+                  //       // stops: [0, 1],
+                  //     ),
+                  //   ),
+                  // ),
                   SingleChildScrollView(
                     child: Container(
                       height: deviceSize.height,
@@ -115,7 +115,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               // ..translate(-10.0),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                color: Colors.deepOrange.shade900,
+                                color: Colors.purple,
                                 boxShadow: [
                                   BoxShadow(
                                     blurRadius: 8,
@@ -150,7 +150,7 @@ class _AuthScreenState extends State<AuthScreen> {
               );
               break;
             default:
-              return Center(child: Text('Loading'));
+              return Container();
           }
         },
       ),

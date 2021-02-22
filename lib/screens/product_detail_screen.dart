@@ -26,6 +26,10 @@ class ProductDetailScreen extends StatelessWidget {
               child: Image.network(
                 loadedProduct.imageUrl,
                 fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) => Image.network(
+                  'https://firebasestorage.googleapis.com/v0/b/shopappflutter-1eb4d.appspot.com/o/default_image.png?alt=media&token=5c2ca7bc-87fb-4659-8e42-cfe8f4c98971',
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
             SizedBox(height: 10),

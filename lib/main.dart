@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 // import 'package:flutter_driver/driver_extension.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import './screens/products_overview_screen.dart';
 import './providers/auth.dart';
@@ -67,6 +68,7 @@ class _MyAppState extends State<MyApp> {
       ],
       child: Consumer<Auth>(
         builder: (ctx, auth, _) => MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'MyShop',
           theme: ThemeData(
             primarySwatch: Colors.purple,

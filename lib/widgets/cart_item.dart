@@ -82,10 +82,12 @@ class CartItem extends StatelessWidget {
                     '\$$price',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      color: Colors.white,
                     ),
                   ),
                 ),
               ),
+              backgroundColor: Theme.of(context).primaryColor,
             ),
             title: Text(title),
             subtitle: Text('Total: \$${(price * quantity)}'),

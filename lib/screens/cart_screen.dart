@@ -5,9 +5,14 @@ import '../providers/cart.dart' show Cart;
 import '../widgets/cart_item.dart';
 import '../providers/orders.dart';
 
-class CartScreen extends StatelessWidget {
+class CartScreen extends StatefulWidget {
   static const routeName = '/cart';
 
+  @override
+  _CartScreenState createState() => _CartScreenState();
+}
+
+class _CartScreenState extends State<CartScreen> {
   @override
   Widget build(BuildContext context) {
     final cart = Provider.of<Cart>(context);
@@ -47,6 +52,49 @@ class CartScreen extends StatelessWidget {
               ),
             ),
           ),
+          cart.itemCount != 0
+              ? FlatButton(
+                  onPressed: () {
+                    return showDialog<bool>(
+                      context: context,
+                      barrierDismissible: true,
+                      builder: (BuildContext ctx) {
+                        return AlertDialog(
+                          title:
+                              Text('Are you sure do you want do clear cart?'),
+                          actions: <Widget>[
+                            FlatButton(
+                              child: Text('Yes'),
+                              onPressed: () {
+                                cart.clear();
+                                Navigator.pop(ctx, false);
+                              },
+                            ),
+                            FlatButton(
+                              child: Text('No'),
+                              onPressed: () {
+                                Navigator.pop(
+                                    ctx, false); // showDialog() returns false
+                              },
+                            ),
+                          ],
+                        );
+                      },
+                    );
+                  },
+                  child: Text(
+                    'Clear Cart',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).primaryTextTheme.title.color,
+                    ),
+                  ),
+                  color: Theme.of(context).primaryColor,
+                )
+              : Container(),
+          cart.itemCount != 0
+              ? Text('To remove an item from cart, swipe to left')
+              : Container(),
           SizedBox(height: 10),
           Expanded(
             child: ListView.builder(
@@ -59,7 +107,7 @@ class CartScreen extends StatelessWidget {
                 cart.items.values.toList()[i].title,
               ),
             ),
-          )
+          ),
         ],
       ),
     );

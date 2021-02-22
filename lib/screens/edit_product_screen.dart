@@ -286,9 +286,10 @@ class _EditProducrScreenState extends State<EditProducrScreen> {
                                   !value.startsWith('https')) {
                                 return 'Please enter a valid URL.';
                               }
-                              if (!value.endsWith('.png') &&
-                                  !value.endsWith('.jpg') &&
-                                  !value.endsWith('.jpeg')) {
+                              if (!value.contains('.png') &&
+                                  !value.contains('.jpg') &&
+                                  !value.contains('.jpeg') &&
+                                  !value.contains('.jfif')) {
                                 return 'Please enter a valid image URL.';
                               }
                               return null;
